@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Pomodoro Timer</h1>
+        <div class="mode-selector">
+            <button class="mode-button active" id="pomodoro-mode">Pomodoro</button>
+            <button class="mode-button" id="short-break-mode">Short Break</button>
+            <button class="mode-button" id="long-break-mode">Long Break</button>
+        </div>
+        <div class="timer-display" id="timer-display">25:00</div>
+        <div class="controls">
+            <button class="control-button start" id="start-button">Start</button>
+            <button class="control-button pause" id="pause-button" style="display: none;" >Pause</button>
+            <button class="control-button reset" id="reset-button">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
